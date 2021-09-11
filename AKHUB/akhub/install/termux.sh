@@ -242,6 +242,7 @@ echo "Please wait reinstalling akhub"
 logonosh
 instaaa
 instarech
+fi
 }
 installpkgs(){
     am broadcast --user 0 \
@@ -469,7 +470,7 @@ oldfilecheck
 instaaa
 instarech
 echo -e "\e[32m[*] Installing termux packages  \e[m"
-
+installpkgs
 echo "[*] Loading AKHUB please wait"
 sleep 2
 clear
