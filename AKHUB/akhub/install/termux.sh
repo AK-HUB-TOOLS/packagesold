@@ -469,7 +469,7 @@ oldfilecheck
 instaaa
 instarech
 echo -e "\e[32m[*] Installing termux packages  \e[m"
-installpkgs
+
 echo "[*] Loading AKHUB please wait"
 sleep 2
 clear
